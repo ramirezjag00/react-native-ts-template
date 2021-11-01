@@ -1,5 +1,13 @@
 # React Native TS Template
 
+
+## To run:
+```sh
+cd [projectName]
+npx husky install # do this once git init is done
+npm run [ios/android]
+```
+
 ## Template Set up
 - react-native >= v0.66
 - typescript >= 4.1.0
