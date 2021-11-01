@@ -3,7 +3,7 @@
 ## To use:
 
 ```
-npx react-native init AwesomeApp --template git+ssh@github.com:ramirezjag00/react-native-ts-template.git
+npx react-native init AwesomeApp --template https://github.com/ramirezjag00/react-native-ts-template.git 
 ```
 
 ## Template Set up

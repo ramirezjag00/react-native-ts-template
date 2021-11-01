@@ -2,7 +2,7 @@
   "name": "react-native-ts-template",
   "version": "0.0.5",
   "description": "React Native Typescript Template",
-  "repository": "git+ssh@github.com:ramirezjag00/react-native-ts-template.git",
+  "repository": "https://github.com/ramirezjag00/react-native-ts-template.git",
   "author": "Andrey Ramirez",
   "license": "MIT"
 }
