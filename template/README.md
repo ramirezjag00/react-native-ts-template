@@ -5,6 +5,7 @@
 ```sh
 cd [projectName]
 npx husky install # do this once git init is done
+# edit name in package.json to lowercase of [projectname]
 npm run [ios/android]
 ```
 
