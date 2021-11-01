@@ -11,13 +11,8 @@
     "prettier": "prettier --loglevel warn --write \"src/**/*.{ts,tsx,js}\"",
     "prepare": "husky install"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged --allow-empty"
-    }
-  },
   "lint-staged": {
-    "src/**/*.{ts,tsx}": [
+    "\"src/**/*.{ts,tsx}\"|\"App.tsx\"": [
       "eslint",
       "prettier --write",
       "git add"
