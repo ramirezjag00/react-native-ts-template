@@ -1,0 +1,8 @@
+{
+  "name": "reactnativetstemplate",
+  "version": "0.0.5",
+  "description": "React Native Typescript Template",
+  "repository": "git@github.com:ramirezjag00/react-native-ts-template.git",
+  "author": "Andrey Ramirez",
+  "license": "MIT"
+}
