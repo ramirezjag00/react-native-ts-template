@@ -1,5 +1,7 @@
 # React Native TS Template
 
+> Read template/README.md after using
+
 ## To use:
 
 ```
