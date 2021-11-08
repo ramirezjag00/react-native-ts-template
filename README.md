@@ -1,6 +1,6 @@
 # React Native TS Template
 
-> Read template/README.md after using
+> Read template/README.md or README.md of generated project after using
 
 ## To use:
 
