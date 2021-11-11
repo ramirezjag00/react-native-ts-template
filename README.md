@@ -11,6 +11,7 @@ npx react-native init AwesomeApp --template https://github.com/ramirezjag00/reac
 ## Template Set up
 - react-native >= v0.66
 - typescript >= 4.1.0
+- xcode 13
 - eslint
 - prettier
 - path alias

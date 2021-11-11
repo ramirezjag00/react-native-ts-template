@@ -109,3 +109,5 @@ npm run [ios/android]
 - [ ]  app icon
 - [ ]  rn-vector-icons
 - [ ]  google firebase
+- [ ]  tsdoc + typedoc
+- [ ]  storybook
