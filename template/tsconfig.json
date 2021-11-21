@@ -21,7 +21,7 @@
       "@routes/*": ["routes/*"],
       "@screens/*": ["components/screens/*"],
       "@store/*": ["redux/*"],
-      "@theme": ["constants/theme"],
+      "@themes": ["constants/themes"],
       "@utils/*": ["utils/*"],
     }
   },

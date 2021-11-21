@@ -31,7 +31,7 @@ module.exports = {
           '@routes': './src/routes',
           '@screens': './src/components/screens',
           '@store': './src/redux',
-          '@theme': './src/constants/theme',
+          '@themes': './src/constants/themes',
           '@utils': './src/utils',
         },
       },
