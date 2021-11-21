@@ -78,6 +78,7 @@ npm run [ios/android]
 - [ ]  dayjs
 
 ### Dev Tools and CI/CD
+- [ ]  flipper
 - [ ]  rn-debugger
 - [ ]  performance and bench marking
 - [ ]  react-native-config
