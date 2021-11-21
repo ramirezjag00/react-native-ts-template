@@ -38,7 +38,7 @@
   "plugins": ["react", "react-native", "prettier", "react-hooks", "import"],
   "rules": {
     "@typescript-eslint/no-floating-promises": 0,
-    "@typescript-eslint/no-use-before-define": 2,
+    "@typescript-eslint/no-use-before-define": 0,
     "@typescript-eslint/unbound-method": 0,
     "array-bracket-spacing": 2,
     "arrow-spacing": 2,
@@ -46,7 +46,6 @@
     "newline-before-return": 2,
     "no-trailing-spaces": 2,
     "no-unused-vars": 2,
-    "no-use-before-define": 2,
     "camelcase": 1,
     "default-param-last": 1,
     "object-curly-spacing": [2, "always"],
