@@ -1,25 +1,14 @@
 # React Native TS Template
-
+> Generated using [ramirezjag00/react-native-ts-template](https://github.com/ramirezjag00/react-native-ts-template)
 
 ## To run:
 ```sh
 cd [projectName]
 npx husky install # do this once git init is done
-# edit name in package.json to lowercase of [projectname]
 # edit alias in babel.config.js according to folder structure/names
 # edit paths in tsconfig.json according to folder structure/names
 npm run [ios/android]
 ```
-
-## Template Set up
-- react-native >= v0.66
-- typescript >= 4.1.0
-- eslint
-- prettier
-- path alias
-- husky
-- lint-staged
-- Hermes enabled for iOS and Android
 
 ## Recommended Folder Structure
 
