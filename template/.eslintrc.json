@@ -49,6 +49,7 @@
     "camelcase": 1,
     "default-param-last": 1,
     "object-curly-spacing": [2, "always"],
+    "spaced-comment": [2, "always"],
     "react-hooks/exhaustive-deps": 1,
     "react-hooks/rules-of-hooks": 2,
     "react-native/no-color-literals": 2,
