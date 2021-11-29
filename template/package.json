@@ -7,7 +7,7 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint \"src/**/*.{ts,tsx}\"",
+    "lint": "eslint \"src/**/*.{ts,tsx}\" \"App.tsx\"",
     "prettier": "prettier --loglevel warn --write \"src/**/*.{ts,tsx,js}\"",
     "prepare": "husky install"
   },
