@@ -57,6 +57,7 @@
     "react-native/no-single-element-style-arrays": 2,
     "react-native/no-unused-styles": 2,
     "react-native/sort-styles": ["error", "asc", { "ignoreClassNames": true, "ignoreStyleProperties": false }],
+    "react/no-array-index-key": 2,
     "react/display-name": 2,
     "react/jsx-curly-spacing": 2,
     "react/jsx-equals-spacing": 2,
