@@ -77,7 +77,6 @@
       "checkInlineFunction": true
     }],
     "react/jsx-no-constructed-context-values": 2,
-    "react/jsx-one-expression-per-line": [1, { "allow": "single-child" }],
     "react/jsx-props-no-multi-spaces": 1,
     "react/jsx-sort-props": [1, {
       "ignoreCase": false,
