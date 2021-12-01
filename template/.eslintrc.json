@@ -54,7 +54,6 @@
     "react-hooks/exhaustive-deps": 1,
     "react-hooks/rules-of-hooks": 2,
     "react-native/no-color-literals": 2,
-    "react-native/no-raw-text": 2,
     "react-native/no-single-element-style-arrays": 2,
     "react-native/no-unused-styles": 2,
     "react-native/sort-styles": ["error", "asc", { "ignoreClassNames": true, "ignoreStyleProperties": false }],
