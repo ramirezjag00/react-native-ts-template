@@ -70,9 +70,9 @@
       1,
       { "allowAsProps": false }
     ],
-    "react/jsx-handler-names": [1, {
-      "eventHandlerPrefix": "(handle|on|get|set|fetch|render)",
-      "eventHandlerPropPrefix": "(handle|on|get|set|fetch|render)",
+    "react/jsx-handler-names": [2, {
+      "eventHandlerPrefix": "(handle|on|get|set|fetch)",
+      "eventHandlerPropPrefix": "(handle|on|get|set|fetch)",
       "checkLocalVariables": true,
       "checkInlineFunction": true
     }],
