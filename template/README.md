@@ -4,7 +4,6 @@
 ## To run:
 ```sh
 cd [projectName]
-npx husky install # do this once git init is done
 # edit alias in babel.config.js according to folder structure/names
 # edit paths in tsconfig.json according to folder structure/names
 npm run [ios/android]
