@@ -14,8 +14,7 @@
   "lint-staged": {
     "\"src/**/*.{ts,tsx}\"|\"App.tsx\"": [
       "eslint",
-      "prettier --write",
-      "git add"
+      "prettier --write"
     ]
   },
   "engines": {
