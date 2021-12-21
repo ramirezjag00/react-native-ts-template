@@ -1,12 +1,10 @@
 # React Native TS Template
 
-> Make sure to `npm uninstall -g react-native-cli` to remove older cli and do `yarn global add @react-native-community/cli` (or just use npm) to get the recommended cli
-
-> Recommended to use `nvm` and version of `node >= v16.0.0` when running the app and for the packager
-
-> Got a problem running this with `MBP M1`? -- make sure to open terminal of choice using `Rosetta` before running command
-
-> Read `template/README.md` or `README.md of generated project` after using
+## Requirements
+- Make sure to `npm uninstall -g react-native-cli` to remove older cli and do `npm i -g @react-native-community/cli` (or yarn global add) to get the recommended cli
+- Recommended to use `nvm` and version of `node >= v16.0.0` when running the app and for the packager
+- Got a problem running this with `MBP M1`? -- make sure to open terminal of choice using `Rosetta` before running command
+- Read `template/README.md` OR `README.md of generated project` after using
 
 
 ## Usage:
