@@ -124,6 +124,9 @@ npm run [ios/android]
 - [ ]  react-native-multithreading
 - [ ]  lerna
 - [ ]  json-server
+- [ ]  lowdb
+- [ ]  jsonplaceholder
+- [ ]  benchmark
 - [ ]  vscode extension: gitlens
 - [ ]  vscode extension: quokka.js
 - [ ]  vscode extension: thunder client
@@ -134,7 +137,6 @@ npm run [ios/android]
 - [ ]  react-native-notifications
 - [ ]  notifee
 - [ ]  react-native-firebase
-- [ ]  react-native-fs
 - [ ]  react-native-permissions
 - [ ]  react-native-keychain
 - [ ]  react-native-contacts
@@ -224,6 +226,9 @@ npm run [ios/android]
 - [ ]  form-date
 - [ ]  useHooks
 - [ ]  react-use
+- [ ]  fs
+- [ ]  react-native-fs
+- [ ]  steno
 
 ### CI / CD
 - [ ] github actions
