@@ -256,6 +256,7 @@ npm run [ios/android]
 - [ ]  react-native-macos
 - [ ]  react-native-windows
 - [ ]  viro
+- [ ]  PyTorch Live
 
 ### Others
 - Bash for basic scripting/automation
