@@ -216,7 +216,7 @@ npm run [ios/android]
 - [ ]  luxon
 - [ ]  rxjs
 - [ ]  fbt
-- [ ]  react-intl
+- [ ]  intl and react-intl
 - [ ]  fuse.js
 - [ ]  uuid
 - [ ]  Numeral-js
@@ -237,8 +237,17 @@ npm run [ios/android]
 - [ ] react-native-code-push
 
 ### Testing
-- [ ]  jest and react-native-testing-library
+- [ ]  jest and eslint-plugin-jest
+- [ ]  react-native-testing-library
 - [ ]  detox
+- [ ]  redux-mock-store
+- [ ]  fetch-mock
+- [ ]  jest-fetch-mock
+- [ ]  detox
+- [ ]  msw
+- [ ]  miragejs
+- [ ]  nock
+- [ ]  react-native-mock
 
 ### Extras
 - [ ]  react-native-splash-screen
@@ -262,4 +271,3 @@ npm run [ios/android]
 - Bash for basic scripting/automation
 - C++ for JSI
 - Ruby for Fastlane's Fastfile
-
