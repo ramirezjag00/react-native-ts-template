@@ -203,7 +203,6 @@ npm run [ios/android]
 - [ ]  react-native-image-viewing
 - [ ]  react-native-image-picker
 - [ ]  react-native-render-html
-- [ ]  react-native-gifted-chat
 - [ ]  react-native-snap-carousel
 - [ ]  react-native-image-crop-picker
 - [ ]  react-native-signature-capture
