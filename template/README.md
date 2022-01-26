@@ -7,6 +7,7 @@ cd [projectName]
 npx husky install # do this once git init is done
 # edit alias in babel.config.js according to folder structure/names
 # edit paths in tsconfig.json according to folder structure/names
+npm i # or npm i --legacy-peer-deps
 npm run [ios/android]
 ```
 
