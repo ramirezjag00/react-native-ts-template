@@ -4,10 +4,10 @@
 ## To run
 ```sh
 cd [projectName]
-npx husky install # do this once git init is done
+npx husky install # do this once git init is done. this will automatically be called on succeeding `npm i`
 # edit alias in babel.config.js according to folder structure/names
 # edit paths in tsconfig.json according to folder structure/names
-npm i # or npm i --legacy-peer-deps
+npm i --legacy-peer-deps # or npm i
 npm run [ios/android]
 ```
 
