@@ -32,7 +32,6 @@ npx react-native init appnamehere --template https://github.com/ramirezjag00/rea
 - react-native v0.68.2
 - typescript 4.4.4
 - [new JSX transform - no need for React import](https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html)
-- xcode 13
 - Hermes enabled for iOS and Android
   - recommended to use [Flipper](https://www.youtube.com/watch?v=7R8Gc8oTZVw) as default debugger
   - [Debugging JS on Hermes using Google Chrome's DevTools](https://reactnative.dev/docs/hermes/#debugging-js-on-hermes-using-google-chromes-devtools)
