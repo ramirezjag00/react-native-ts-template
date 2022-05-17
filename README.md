@@ -17,6 +17,8 @@
 ## Issues
 - Got a problem running this with `MBP M1`? -- make sure to open terminal of choice using `Rosetta` before running command
 - If in case you get an error that says `Reached heap limit Allocation failed` -- increase node memory limit
+- `sudo arch -x86_64 gem install ffi`
+- `cd ios && rm -rf Pods Podfile.lock && arch -x86_64 pod install && cd ..`
 
 ## Template Usage:
 
