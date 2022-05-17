@@ -34,7 +34,8 @@ npx react-native init appnamehere --template https://github.com/ramirezjag00/rea
 - [new JSX transform - no need for React import](https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html)
 - xcode 13
 - Hermes enabled for iOS and Android
-  - recommended to use `Flipper` as default debugger
+  - recommended to use [Flipper](https://www.youtube.com/watch?v=7R8Gc8oTZVw) as default debugger
+  - [Debugging JS on Hermes using Google Chrome's DevTools](https://reactnative.dev/docs/hermes/#debugging-js-on-hermes-using-google-chromes-devtools)
 - dev tooling - make sure to read about the `rules in config files` of the following plugins/tools as you won't be able to `commit` if there's any error/warning in staged files
   - eslint
   - tslint
