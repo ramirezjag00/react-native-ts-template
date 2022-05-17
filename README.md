@@ -27,7 +27,7 @@ npx react-native init appnamehere --template https://github.com/ramirezjag00/rea
 ```
 
 ## Template Set up
-> Built on top of [react-native-community / react-native-template-typescript @ 6.8.5](https://github.com/react-native-community/react-native-template-typescript)
+> Built on top of [react-native-community / react-native-template-typescript @ 6.10.2](https://github.com/react-native-community/react-native-template-typescript)
 - react 17.0.2
 - react-native v0.66.4
 - typescript 4.4.4
