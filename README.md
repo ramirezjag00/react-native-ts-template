@@ -43,3 +43,14 @@ npx react-native init appnamehere --template https://github.com/ramirezjag00/rea
   - path alias
   - husky
   - lint-staged
+
+### Blog
+- [React v18.0 Blog](https://reactjs.org/blog/2022/03/29/react-v18.html)
+- [Announcing React Native 0.68](https://reactnative.dev/blog/2022/03/30/version-068)
+
+### Notes
+- [Adopting the New Architecture](https://reactnative.dev/docs/new-architecture-intro)
+- [to enable new architecture](https://reactnative.dev/blog/2022/03/15/an-update-on-the-new-architecture-rollout#the-new-architecture-template)
+
+### Please don't use React 18 with RN 0.68
+- [The React Native Show Podcast: Coffee Talk #1 - React v18.0 & React Native 0.68](https://youtu.be/nMhKMlhDHGg?t=1300)
