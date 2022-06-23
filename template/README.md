@@ -7,7 +7,11 @@ cd [projectName]
 npx husky install # do this once git init is done. this will automatically be called on succeeding `npm i`
 # edit alias in babel.config.js according to folder structure/names
 # edit paths in tsconfig.json according to folder structure/names
-npm i --legacy-peer-deps # or npm i
+npm i --legacy-peer-deps # or npm i or npm i --force
+# sudo arch -x86_64 gem install ffi
+# cd ios && rm -rf Pods Podfile.lock && arch -x86_64 pod install && cd ..
+# or for non-m1/m2 mac users
+# cd ios && rm -rf Pods Podfile.lock && pod install && cd ..
 npm run [ios/android]
 ```
 
@@ -250,6 +254,8 @@ npm run [ios/android]
 - [ ]  miragejs
 - [ ]  nock
 - [ ]  react-native-mock
+- [ ]  reassure
+- [ ]  react-native-owl
 
 ### Extras
 - [ ]  react-native-splash-screen

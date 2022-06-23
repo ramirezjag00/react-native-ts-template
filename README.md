@@ -27,9 +27,9 @@ npx react-native init appnamehere --template https://github.com/ramirezjag00/rea
 ```
 
 ## Template Set up
-> Built on top of [react-native-community / react-native-template-typescript @ 6.10.2](https://github.com/react-native-community/react-native-template-typescript)
-- react 17.0.2
-- react-native v0.68.2
+> Built on top of [react-native-community / react-native-template-typescript @ 6.11.1](https://github.com/react-native-community/react-native-template-typescript)
+- react v18.0.0
+- react-native v0.69.0
 - typescript 4.4.4
 - [new JSX transform - no need for React import](https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html)
 - Hermes enabled for iOS and Android
@@ -45,6 +45,7 @@ npx react-native init appnamehere --template https://github.com/ramirezjag00/rea
 
 ### Blog
 - [React v18.0 Blog](https://reactjs.org/blog/2022/03/29/react-v18.html)
+- [Announcing React Native 0.69](https://reactnative.dev/blog/2022/06/21/version-069)
 - [Announcing React Native 0.68](https://reactnative.dev/blog/2022/03/30/version-068)
 
 ### Notes
