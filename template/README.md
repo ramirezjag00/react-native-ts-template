@@ -277,5 +277,8 @@ npm run [ios/android]
 
 ### Others
 - Bash for basic scripting/automation
-- C++ for JSI
 - Ruby for Fastlane's Fastfile
+- Swift / Objective-C for iOS
+- Java / Kotlin for Android
+- C++ for JSI
+
