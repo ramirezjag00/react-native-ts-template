@@ -14,17 +14,28 @@
 - Make sure to `npm uninstall -g react-native-cli` to remove older cli and do `npm i -g @react-native-community/cli` (or yarn global add) to get the recommended cli
 - Read `template/README.md` OR `README.md of generated project` after using
 
-## Issues
-- Got a problem running this with `MBP M1`? -- make sure to open terminal of choice using `Rosetta` before running command
-- If in case you get an error that says `Reached heap limit Allocation failed` -- increase node memory limit
-- `sudo arch -x86_64 gem install ffi`
-- `cd ios && rm -rf Pods Podfile.lock && arch -x86_64 pod install && cd ..`
-
 ## Template Usage:
 
-```
+```sh
 npx react-native init appnamehere --template https://github.com/ramirezjag00/react-native-ts-template.git 
 ```
+
+## Usage with older versions of React Native
+
+### e.g. `react-native@0.68.x` add `#0.1.0`
+
+```sh
+npx react-native init appnamehere --template https://github.com/ramirezjag00/react-native-ts-template.git#v0.1.0
+```
+
+See the below table to find out which version of the template to use.
+
+#### React Native <=> Template Version
+
+| React Native | Template |
+| ------------ | -------- |
+| 0.69         | v0.2.\*  |
+| 0.68         | v0.1.0  |
 
 ## Template Set up
 > Built on top of [react-native-community / react-native-template-typescript @ 6.11.1](https://github.com/react-native-community/react-native-template-typescript)
@@ -46,11 +57,13 @@ npx react-native init appnamehere --template https://github.com/ramirezjag00/rea
 ### Blog
 - [React v18.0 Blog](https://reactjs.org/blog/2022/03/29/react-v18.html)
 - [Announcing React Native 0.69](https://reactnative.dev/blog/2022/06/21/version-069)
-- [Announcing React Native 0.68](https://reactnative.dev/blog/2022/03/30/version-068)
 
 ### Notes
 - [Adopting the New Architecture](https://reactnative.dev/docs/new-architecture-intro)
 - [to enable new architecture](https://reactnative.dev/blog/2022/03/15/an-update-on-the-new-architecture-rollout#the-new-architecture-template)
 
-### Please don't use React 18 with RN 0.68
-- [The React Native Show Podcast: Coffee Talk #1 - React v18.0 & React Native 0.68](https://youtu.be/nMhKMlhDHGg?t=1300)
+## Issues
+- Got a problem running this with `MBP M1`? -- make sure to open terminal of choice using `Rosetta` before running command
+- If in case you get an error that says `Reached heap limit Allocation failed` -- increase node memory limit
+- `sudo arch -x86_64 gem install ffi`
+- `cd ios && rm -rf Pods Podfile.lock && arch -x86_64 pod install && cd ..`
