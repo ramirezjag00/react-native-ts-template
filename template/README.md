@@ -197,6 +197,8 @@ npm run [ios/android]
 - [ ]  react-native-checkbox-reanimated
 - [ ]  @react-native-community/checkbox
 - [ ]  react-native-bouncy-checkbox
+- [ ]  react-native-mask-input
+
 
 ### Maps
 - [ ]  react-native-maps
