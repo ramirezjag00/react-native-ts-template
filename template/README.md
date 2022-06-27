@@ -67,6 +67,9 @@ npm run [ios/android]
 - [ ]  react-native-paper
 - [ ]  react-native-elements
 - [ ]  fluentui-react-native
+- [ ]  universal ui (showtime-xyz)
+- [ ]  dripsy
+- [ ]  tamagui
 
 ### Animations
 - [ ]  react-native-reanimated
@@ -74,6 +77,7 @@ npm run [ios/android]
 - [ ]  lottie-react-native
 - [ ]  moti
 - [ ]  d3.js + react-native-svg
+- [ ]  framer motion
 
 ### 3D
 - [ ]  three.js
@@ -84,6 +88,9 @@ npm run [ios/android]
 
 ### Navigation
 - [ ]  react-navigation
+- [ ]  react-router
+- [ ]  react-native-url-router
+- [ ]  solito
 
 ### Network / Data Fetching
 - [ ]  axios
@@ -91,6 +98,12 @@ npm run [ios/android]
 - [ ]  redux-toolkit-query
 - [ ]  swr
 - [ ]  react-query
+
+### Lists
+- [ ]  RecyclerListView
+- [ ]  WishList
+- [ ]  FlashList
+- [ ]  react-native-snap-carousel
 
 ### State Management
 - [ ]  redux-toolkit
@@ -120,6 +133,7 @@ npm run [ios/android]
 - [ ]  flipper
 - [ ]  react-native-debugger
 - [ ]  react-native-performance
+- [ ]  react-native-js-benchmark
 - [ ]  react-native-network-logger
 - [ ]  react-native-netinfo
 - [ ]  react-native-device-info
@@ -136,11 +150,13 @@ npm run [ios/android]
 - [ ]  vscode extension: quokka.js
 - [ ]  vscode extension: thunder client
 - [ ]  vscode extension: vim
+- [ ]  vscode extension: typescript error translator
 
 ### System
 - [ ]  react-native-push-notification
 - [ ]  react-native-notifications
 - [ ]  notifee
+- [ ]  react-native-notificated
 - [ ]  react-native-firebase
 - [ ]  react-native-permissions
 - [ ]  react-native-keychain
@@ -164,6 +180,7 @@ npm run [ios/android]
 - [ ]  react-native-background-timer
 - [ ]  react-native-skeleton-placeholder
 - [ ]  react-native-shimmer-placeholder
+- [ ]  react-native-bottomsheet
 
 ### Forms
 - [ ]  react-hook-form
@@ -196,6 +213,7 @@ npm run [ios/android]
 - [ ]  react-native-vision-camera
 - [ ]  react-native-video
 - [ ]  react-native-webrtc
+- [ ]  react-native-membrane-webrtc
 - [ ]  react-native-callkeep
 - [ ]  react-native-sound
 - [ ]  react-native-gifted-chat
@@ -208,7 +226,6 @@ npm run [ios/android]
 - [ ]  react-native-image-viewing
 - [ ]  react-native-image-picker
 - [ ]  react-native-render-html
-- [ ]  react-native-snap-carousel
 - [ ]  react-native-image-crop-picker
 - [ ]  react-native-signature-capture
 - [ ]  react-native-background-upload
@@ -231,6 +248,7 @@ npm run [ios/android]
 - [ ]  query-string
 - [ ]  form-date
 - [ ]  useHooks
+- [ ]  react-native-aria
 - [ ]  react-use
 - [ ]  fs
 - [ ]  react-native-fs
@@ -256,6 +274,7 @@ npm run [ios/android]
 - [ ]  react-native-mock
 - [ ]  reassure
 - [ ]  react-native-owl
+- [ ]  wallaby.js
 
 ### Extras
 - [ ]  react-native-splash-screen
