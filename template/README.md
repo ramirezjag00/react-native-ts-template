@@ -181,6 +181,7 @@ npm run [ios/android]
 - [ ]  react-native-skeleton-placeholder
 - [ ]  react-native-shimmer-placeholder
 - [ ]  react-native-bottomsheet
+- [ ]  zeego
 
 ### Forms
 - [ ]  react-hook-form
