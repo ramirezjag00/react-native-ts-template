@@ -179,7 +179,7 @@ lane :notify_upload_to_telegram do
   end
 end
 
-### Under Construction: Interactive Options
+### WIP: Interactive Options
 desc 'Choose platform'
 lane :choose_platform do |options|
   target_platform = UI.select('Which platform?', [

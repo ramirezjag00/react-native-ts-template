@@ -53,6 +53,13 @@ See the below table to find out which version of the template to use.
   - path alias
   - husky
   - lint-staged
+  - github actions main.yml: eslint checker
+  - fastlane
+    - bump versions (ios/android)
+    - build android `debug` apk
+    - notify and upload android apk to slack / telegram
+    - github actions integration (optional)
+    - interactive options (WIP)
 
 ### Blog
 - [React v18.0 Blog](https://reactjs.org/blog/2022/03/29/react-v18.html)
