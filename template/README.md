@@ -7,12 +7,50 @@ cd [projectName]
 npx husky install # do this once git init is done. this will automatically be called on succeeding `npm i`
 # edit alias in babel.config.js according to folder structure/names
 # edit paths in tsconfig.json according to folder structure/names
-npm i --legacy-peer-deps # or npm i or npm i --force
+npm i # or npm i --legacy-peer-deps or npm i --force
+
+### POD INSTALL
+# for mac m1 users
 # sudo arch -x86_64 gem install ffi
 # cd ios && rm -rf Pods Podfile.lock && arch -x86_64 pod install && cd ..
+
 # or for non-m1/m2 mac users
 # cd ios && rm -rf Pods Podfile.lock && pod install && cd ..
+
 npm run [ios/android]
+```
+
+## Fastlane Setup and Usage
+```sh
+# to get started
+# check projectname/fastlane/Fastfile for fastlane actions and comments in it
+
+### FASTLANE
+# install fastlane
+brew install fastlane
+
+# to make sure fastlane is installed: 
+fastlane --version
+
+# to make sure all plugins are updated to the latest version, run
+fastlane update_plugins
+
+# to run a fastlane action: check projectname/fastlane/README.md for actions e.g.
+fastlane android build_qa
+
+# for "fastlane x github actions" add the following sample of fastlane actions as jobs: -> steps: in .github/workflow/main.yml
+
+# Runs a fastlane - qa build
+- name: Run fastlane - android qa build
+  run: fastlane android build_qa
+
+# Runs a fastlane - tg notification of a build
+- name: Run fastlane - telegram notification and upload apk of a build
+  run: fastlane notify_upload_to_telegram
+
+# Runs a fastlane - slack notification  and upload of a build
+- name: Run fastlane - slack notification and upload apk of a build
+  run: fastlane notify_upload_to_slack
 ```
 
 ## Recommended Folder Structure
