@@ -19,39 +19,68 @@ npm i # or npm i --legacy-peer-deps or npm i --force
 
 npm run [ios/android]
 ```
+---
+<details>
+<summary>rbenv && fastlane setup and usage</summary>
 
-## Fastlane Setup and Usage
+## rbenv: installing the right version of ruby
+```sh
+# install rbenv
+brew install rbenv
+
+# install ruby version from gemfile e.g. 2.7.5
+rbenv install 2.7.5
+
+# in .bash_profile or .zshrc add:
+export PATH="$HOME/.rbenv/shims:$PATH"
+eval "$(rbenv init -)"
+
+# in terminal, to set a default version of ruby
+rbenv global 2.7.5
+rbenv local 2.7.5
+rbenv rehash
+# restart terminal
+ruby -v # should output that version
+```
+## fastlane
 ```sh
 # to get started
 # check projectname/fastlane/Fastfile for fastlane actions and comments in it
 
 ### FASTLANE
-# install fastlane
-brew install fastlane
+# install dependencies of gemfile
+bundle install
 
-# to make sure fastlane is installed: 
-fastlane --version
-
-# to make sure all plugins are updated to the latest version, run
-fastlane update_plugins
+# to make sure all plugins are updated to the latest version, run in your project
+bundle exec fastlane update_plugins
 
 # to run a fastlane action: check projectname/fastlane/README.md for actions e.g.
-fastlane android build_qa
+bundle exec fastlane android build_qa
+
+# to update fastlane
+bundle update fastlane
 
 # for "fastlane x github actions" add the following sample of fastlane actions as jobs: -> steps: in .github/workflow/main.yml
 
+# Runs bundle install
+- name: Run bundle install
+  run: bundle install
+
 # Runs a fastlane - qa build
 - name: Run fastlane - android qa build
-  run: fastlane android build_qa
+  run: bundle exec fastlane android build_qa
 
 # Runs a fastlane - tg notification of a build
 - name: Run fastlane - telegram notification and upload apk of a build
-  run: fastlane notify_upload_to_telegram
+  run: bundle exec fastlane notify_upload_to_telegram
 
 # Runs a fastlane - slack notification  and upload of a build
 - name: Run fastlane - slack notification and upload apk of a build
-  run: fastlane notify_upload_to_slack
+  run: bundle exec fastlane notify_upload_to_slack
 ```
+</details>
+
+---
 
 ## Recommended Folder Structure
 
