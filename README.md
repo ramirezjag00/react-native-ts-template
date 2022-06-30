@@ -22,7 +22,7 @@ npx react-native init appnamehere --template https://github.com/ramirezjag00/rea
 
 ## Usage with older versions of React Native
 
-### e.g. `react-native@0.68.x` add `#0.1.0`
+### e.g. `react-native@0.68.x` add `#v0.1.0`
 
 ```sh
 npx react-native init appnamehere --template https://github.com/ramirezjag00/react-native-ts-template.git#v0.1.0
