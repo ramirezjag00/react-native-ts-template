@@ -38,7 +38,7 @@ See the below table to find out which version of the template to use.
 | 0.68         | v0.1.0  |
 
 ## Template Set up
-> Built on top of [react-native-community / react-native-template-typescript @ 6.11.1](https://github.com/react-native-community/react-native-template-typescript)
+> Built on top of [react-native-community / react-native-template-typescript](https://github.com/react-native-community/react-native-template-typescript) and default React Native template
 - react v18.1.0
 - react-native v0.69.1
 - typescript 4.4.4
