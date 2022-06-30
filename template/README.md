@@ -96,11 +96,13 @@ fastlane android build_qa
 ## RN Package Directory
 
 ### Styling / UI
-- [ ]  styled-components
 - [ ]  react-native-extended-stylesheet
-- [ ]  tailwind-react-native-classnames
-- [ ]  react-native-whirlwind
-- [ ]  react-native-tailwindcss
+- [ ]  styled-components
+- [ ]  react-native-zephyr
+- [ ]  tailwind for react-native
+  - [ ]  tailwind-react-native-classnames
+  - [ ]  react-native-whirlwind
+  - [ ]  react-native-tailwindcss
 - [ ]  restyle
 - [ ]  react-native-paper
 - [ ]  react-native-elements
