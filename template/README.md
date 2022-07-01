@@ -121,4 +121,4 @@ bundle update fastlane
 └── 📁 utils
     └── 📁 hooks
 ```
-## [RN Package Directory](https://github.com/ramirezjag00/react-native-resources)
+## [RN Package Directory](https://github.com/ramirezjag00/react-native-resources#react-native-package-directory)
