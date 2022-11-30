@@ -28,16 +28,16 @@ npm run [ios/android]
 # install rbenv
 brew install rbenv
 
-# install ruby version from gemfile e.g. 2.7.5
-rbenv install 2.7.5
+# install ruby version from gemfile e.g. 2.7.6
+rbenv install 2.7.6
 
 # in .bash_profile or .zshrc add:
 export PATH="$HOME/.rbenv/shims:$PATH"
 eval "$(rbenv init -)"
 
 # in terminal, to set a default version of ruby
-rbenv global 2.7.5
-rbenv local 2.7.5
+rbenv global 2.7.6
+rbenv local 2.7.6
 rbenv rehash
 # restart terminal
 ruby -v # should output that version
