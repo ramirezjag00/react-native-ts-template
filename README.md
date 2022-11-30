@@ -4,6 +4,7 @@
 - Recommended to install/use `nvm` and version of `node >= v16.0.0` when running the app
   ```bash
     nvm install 16.10.0 # to install v16.10.0 node, comes with npm v7.24.0
+    nvm install 18.11.0
     nvm ls # to list out all available/installed versions of node (and see what's currently in use / default)
     nvm alias default v16.10.0 # to use node version 16.10.0 as default in ANY instance of terminal
     nvm use v12.x.y # to use node version once (in this instance of terminal only)
@@ -34,6 +35,7 @@ See the below table to find out which version of the template to use.
 
 | React Native | Template |
 | ------------ | -------- |
+| 0.70.6       | v0.4.\*  |
 | 0.70         | v0.3.\*  |
 | 0.69         | v0.2.\*  |
 | 0.68         | v0.1.0  |
@@ -41,8 +43,8 @@ See the below table to find out which version of the template to use.
 ## Template Set up
 > Built on top of [react-native-community / react-native-template-typescript](https://github.com/react-native-community/react-native-template-typescript) and default [React Native template](https://github.com/facebook/react-native/tree/main/template)
 - react v18.1.0
-- react-native v0.70.0
-- typescript v4.8.2
+- react-native v0.70.6
+- typescript v4.8.3
 - [new JSX transform - no need for React import](https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html)
 - Hermes enabled for iOS and Android
   - recommended to use [Flipper](https://www.youtube.com/watch?v=7R8Gc8oTZVw) as default debugger
