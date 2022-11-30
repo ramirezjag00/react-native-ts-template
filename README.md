@@ -41,7 +41,7 @@ See the below table to find out which version of the template to use.
 
 ## Template Set up
 > Built on top of [react-native-community / react-native-template-typescript](https://github.com/react-native-community/react-native-template-typescript) and default [React Native template](https://github.com/facebook/react-native/tree/main/template)
-- react v18.1.0
+- react v18.2.0
 - react-native v0.70.6
 - typescript v4.8.3
 - [new JSX transform - no need for React import](https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html)
