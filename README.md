@@ -34,17 +34,17 @@ See the below table to find out which version of the template to use.
 
 | React Native | Template |
 | ------------ | -------- |
+| 0.71         | v0.5.\*  |
 | 0.70.6       | v0.4.\*  |
 | 0.70         | v0.3.\*  |
 | 0.69         | v0.2.\*  |
 | 0.68         | v0.1.0  |
 
 ## Template Set up
-> Built on top of [react-native-community / react-native-template-typescript](https://github.com/react-native-community/react-native-template-typescript) and default [React Native template](https://github.com/facebook/react-native/tree/main/template)
 - react v18.2.0
-- react-native v0.70.6
-- typescript v4.8.3
-- [new JSX transform - no need for React import](https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html)
+- react-native v0.71.10
+- typescript v4.8.4
+- [new JSX transform (no need for React import)](https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html)
 - Hermes enabled for iOS and Android
   - recommended to use [Flipper](https://www.youtube.com/watch?v=7R8Gc8oTZVw) as default debugger
   - [Debugging JS on Hermes using Google Chrome's DevTools](https://reactnative.dev/docs/hermes/#debugging-js-on-hermes-using-google-chromes-devtools)
@@ -63,9 +63,7 @@ See the below table to find out which version of the template to use.
     - github actions integration (optional)
     - interactive options (WIP)
 
-### Blog
-- [React v18.0 Blog](https://reactjs.org/blog/2022/03/29/react-v18.html)
-- [Announcing React Native 0.69](https://reactnative.dev/blog/2022/06/21/version-069)
+### [React Native Blogs](https://reactnative.dev/blog/2023/01/27/71rc1-android-outage-postmortem)
 
 ### Notes
 - [Adopting the New Architecture](https://reactnative.dev/docs/new-architecture-intro)

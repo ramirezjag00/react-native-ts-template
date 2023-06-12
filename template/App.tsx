@@ -5,7 +5,7 @@ const App: React.FC = () => {
   return (
     <SafeAreaView style={styles.container}>
       <Text style={styles.title}>
-        React Native Template Typescript - RN v0.70.6
+        React Native Template Typescript - RN v0.71.10
       </Text>
     </SafeAreaView>
   )
