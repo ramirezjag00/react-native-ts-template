@@ -1,5 +1,6 @@
-# React Native TS Template
 > Generated using [ramirezjag00/react-native-ts-template](https://github.com/ramirezjag00/react-native-ts-template)
+
+# ProjectName
 
 ## To run
 ```sh
