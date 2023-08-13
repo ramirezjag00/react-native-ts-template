@@ -1,0 +1,26 @@
+name: Test (app)
+
+on:
+  workflow_call:
+    inputs:
+      run-build:
+        description: 'determine if step should run'
+        required: false
+        default: true
+        type: boolean
+defaults:
+  run:
+    working-directory: .
+
+jobs:
+  unit-tests:
+    name: Unit Tests
+    if: inputs.run-build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: ./.github/actions/setup-node
+
+      - name: Run app tests
+        run: yarn test
+

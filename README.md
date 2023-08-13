@@ -1,9 +1,9 @@
 # React Native TS Template
 
 ## Requirements
-- Recommended to install/use `nvm` and version of `node >= v16.0.0` when running the app
+- Recommended to install/use `nvm` and version of `node >= v18.0.0` when running the app
   ```bash
-    nvm install 18.11.0 # to install v16.10.0 node, comes with npm v8.19.2
+    nvm install 18.11.0 # to install v18.11.0 node, comes with npm v8.19.2
     nvm ls # to list out all available/installed versions of node (and see what's currently in use / default)
     nvm alias default 18.11.0 # to use node version 18.11.0 as default in ANY instance of terminal
     nvm use v12.x.y # to use node version once (in this instance of terminal only)
@@ -52,10 +52,18 @@ See the below table to find out which version of the template to use.
   - eslint
   - tslint
   - prettier
-  - path alias
+  - path alias (check babel.config.js/alias or tsconfig.json/paths)
   - husky
   - lint-staged
-  - github actions main.yml: eslint checker
+  - github
+    - CODEOWNERS template
+    - PR template
+    - Issue template
+    - actions for PRs
+      - eslint checker
+      - prettier checker
+      - tsc checker
+      - test checker
   - fastlane
     - bump versions (ios/android)
     - build android `debug` apk
@@ -63,7 +71,7 @@ See the below table to find out which version of the template to use.
     - github actions integration (optional)
     - interactive options (WIP)
 
-### [React Native Blogs](https://reactnative.dev/blog/2023/01/27/71rc1-android-outage-postmortem)
+### [React Native Blogs](https://reactnative.dev/blog/)
 
 ### Notes
 - [Adopting the New Architecture](https://reactnative.dev/docs/new-architecture-intro)
