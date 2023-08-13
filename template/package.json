@@ -10,6 +10,7 @@
     "lint": "eslint \"src/**/*.{ts,tsx}\" \"App.tsx\"",
     "lintFix": "eslint \"src/**/*.{ts,tsx}\" \"App.tsx\" --fix",
     "prettier": "prettier --loglevel warn --write \"src/**/*.{ts,tsx,js}\"",
+    "types": "tsc",
     "prepare": "husky install",
     "bump-patch": "npm version patch --no-git-tag-version && fastlane bump_version",
     "bump-minor": "npm version minor --no-git-tag-version && fastlane bump_version",

@@ -21,6 +21,7 @@ npm i # or npm i --legacy-peer-deps or npm i --force
 npm run [ios/android]
 ```
 ---
+
 <details>
 <summary>rbenv && fastlane setup and usage</summary>
 
@@ -82,6 +83,8 @@ bundle update fastlane
 </details>
 
 ---
+<details>
+<summary>Recommended Folder Structure</summary>
 
 ## Recommended Folder Structure
 
@@ -122,4 +125,6 @@ bundle update fastlane
 └── 📁 utils
     └── 📁 hooks
 ```
+</details>
+
 ## [RN Package Directory](https://github.com/ramirezjag00/react-native-resources#react-native-package-directory)
