@@ -5,10 +5,10 @@
 ## To run
 ```sh
 cd [projectName]
-npx husky install # do this once git init is done. this will automatically be called on succeeding `npm i`
+npx husky install # do this once git init is done. this will automatically be called on succeeding `yarn`
 # edit alias in babel.config.js according to folder structure/names
 # edit paths in tsconfig.json according to folder structure/names
-npm i # or npm i --legacy-peer-deps or npm i --force
+yarn
 
 ### POD INSTALL
 # for mac m1 users
@@ -18,7 +18,7 @@ npm i # or npm i --legacy-peer-deps or npm i --force
 # or for non-m1/m2 mac users
 # cd ios && rm -rf Pods Podfile.lock && pod install && cd ..
 
-npm run [ios/android]
+yarn [ios/android]
 ```
 ---
 
