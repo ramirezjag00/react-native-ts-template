@@ -4,7 +4,7 @@ import type {
   ColorsInterface,
   ThemesInterface,
   StyleSheetInterface,
-} from '@customtypes/themes'
+} from '../types/themes'
 
 // naming convention using vs-code extension: "Name that color"
 const COLORS: ColorsInterface = {
