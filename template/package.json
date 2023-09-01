@@ -24,19 +24,17 @@
     ]
   },
   "engines": {
-    "node": "^18",
-    "npm": "^8 || ^9",
-    "yarn": ">=1.22.17 <= 1.99.99"
+    "node": "^18"
   },
-  "packageManager": "yarn@3.6.2",
+  "packageManager": "yarn@3.6.3",
   "dependencies": {
     "react": "18.2.0",
     "react-native": "0.72.4"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
-    "@babel/preset-env": "^7.20.0",
     "@babel/plugin-transform-react-jsx": "^7.22.5",
+    "@babel/preset-env": "^7.20.0",
     "@babel/preset-typescript": "^7.22.5",
     "@babel/runtime": "^7.20.0",
     "@react-native/eslint-config": "^0.72.2",
