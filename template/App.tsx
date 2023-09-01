@@ -1,4 +1,4 @@
-import { COLORS, CONTAINERS } from '@themes'
+import { COLORS, CONTAINERS } from './src/constants/themes'
 import { SafeAreaView, StyleSheet, Text } from 'react-native'
 
 const App: React.FC = () => {
