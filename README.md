@@ -34,6 +34,7 @@ See the below table to find out which version of the template to use.
 
 | React Native | Template |
 | ------------ | -------- |
+| 0.72         | v0.6.\*  |
 | 0.71         | v0.5.\*  |
 | 0.70.6       | v0.4.\*  |
 | 0.70         | v0.3.\*  |
@@ -42,7 +43,7 @@ See the below table to find out which version of the template to use.
 
 ## Template Set up
 - react v18.2.0
-- react-native v0.71.10
+- react-native v0.72.4
 - typescript v4.8.4
 - [new JSX transform (no need for React import)](https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html)
 - Hermes enabled for iOS and Android
@@ -76,9 +77,3 @@ See the below table to find out which version of the template to use.
 ### Notes
 - [Adopting the New Architecture](https://reactnative.dev/docs/new-architecture-intro)
 - [to enable new architecture](https://reactnative.dev/blog/2022/03/15/an-update-on-the-new-architecture-rollout#the-new-architecture-template)
-
-## Issues
-- Got a problem running this with `MBP M1`? -- make sure to open terminal of choice using `Rosetta` before running command
-- If in case you get an error that says `Reached heap limit Allocation failed` -- increase node memory limit
-- `sudo arch -x86_64 gem install ffi`
-- `cd ios && rm -rf Pods Podfile.lock && arch -x86_64 pod install && cd ..`
