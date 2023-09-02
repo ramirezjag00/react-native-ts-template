@@ -1,18 +1,11 @@
 # React Native TS Template
 
 ## Requirements
-- Recommended to install/use `nvm` and version of `node >= v18.0.0` when running the app
   ```bash
-    nvm install 18.11.0 # to install v18.11.0 node, comes with npm v8.19.2
-    nvm ls # to list out all available/installed versions of node (and see what's currently in use / default)
-    nvm alias default 18.11.0 # to use node version 18.11.0 as default in ANY instance of terminal
-    nvm use v12.x.y # to use node version once (in this instance of terminal only)
+    nvm install 18.17.0
+    nvm alias default 18.17.0
+    npm i -g @react-native-community/cli yarn
   ```
-  - What will happen if I try to run this project w/o following the `engines` versions recommended by the project ("engines" in package.json)? eg. I'm in node v12.22.y and npm v6.14.y (comes with the node v12)
-  ![engines_error.png](/assets/engines_error.png)
-
-- Make sure to `npm uninstall -g react-native-cli` to remove older cli and do `npm i -g @react-native-community/cli` (or yarn global add) to get the recommended cli
-- Read `template/README.md` OR `README.md of generated project` after using
 
 ## Template Usage:
 
@@ -45,6 +38,8 @@ See the below table to find out which version of the template to use.
 - react v18.2.0
 - react-native v0.72.4
 - typescript v4.8.4
+- node 18+ engine
+- yarn 3.6.3 package manager
 - [new JSX transform (no need for React import)](https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html)
 - Hermes enabled for iOS and Android
   - recommended to use [Flipper](https://www.youtube.com/watch?v=7R8Gc8oTZVw) as default debugger
