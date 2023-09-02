@@ -38,6 +38,14 @@ local.properties
 #
 node_modules/
 npm-debug.log
+
+# yarn
+.yarn/*
+!.yarn/releases
+# !.yarn/plugins
+# !.yarn/patches
+# !.yarn/sdks
+# !.yarn/versions
 yarn-error.log
 
 # fastlane
