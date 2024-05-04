@@ -20,7 +20,7 @@ DerivedData
 *.hmap
 *.ipa
 *.xcuserstate
-ios/.xcode.env.local
+**/.xcode.env.local
 
 # Android/IntelliJ
 #
@@ -39,15 +39,6 @@ local.properties
 node_modules/
 npm-debug.log
 
-# yarn
-.yarn/*
-!.yarn/releases
-# !.yarn/plugins
-# !.yarn/patches
-# !.yarn/sdks
-# !.yarn/versions
-yarn-error.log
-
 # fastlane
 #
 # It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
@@ -64,7 +55,7 @@ yarn-error.log
 *.jsbundle
 
 # Ruby / CocoaPods
-/ios/Pods/
+**/Pods/
 /vendor/bundle/
 
 # Temporary files created by Metro to check the health of the file watcher
@@ -72,3 +63,12 @@ yarn-error.log
 
 # testing
 /coverage
+
+# Yarn
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+yarn-error.log

@@ -2,8 +2,8 @@
 
 ## Requirements
   ```bash
-    nvm install 18.17.0
-    nvm alias default 18.17.0
+    nvm install 20.12.2
+    nvm alias default 20.12.2
     npm i -g @react-native-community/cli yarn
   ```
 
@@ -27,6 +27,7 @@ See the below table to find out which version of the template to use.
 
 | React Native | Template |
 | ------------ | -------- |
+| 0.74         | v0.7.\*  |
 | 0.72         | v0.6.\*  |
 | 0.71         | v0.5.\*  |
 | 0.70.6       | v0.4.\*  |
@@ -36,14 +37,13 @@ See the below table to find out which version of the template to use.
 
 ## Template Set up
 - react v18.2.0
-- react-native v0.72.4
-- typescript v4.8.4
+- react-native v0.74.1
+- typescript v5.0.4
 - node 18+ engine
-- yarn 3.6.3 package manager
+- yarn 3.6.4 package manager
 - [new JSX transform (no need for React import)](https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html)
 - Hermes enabled for iOS and Android
-  - recommended to use [Flipper](https://www.youtube.com/watch?v=7R8Gc8oTZVw) as default debugger
-  - [Debugging JS on Hermes using Google Chrome's DevTools](https://reactnative.dev/docs/hermes/#debugging-js-on-hermes-using-google-chromes-devtools)
+  - [[0.73, 0.74] Experimental New Debugger](https://github.com/react-native-community/discussions-and-proposals/discussions/733)
 - dev tooling - make sure to read about the `rules in config files` of the following plugins/tools as you won't be able to `commit` if there's any error/warning in staged files
   - eslint
   - tslint
