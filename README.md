@@ -27,6 +27,7 @@ See the below table to find out which version of the template to use.
 
 | React Native | Template |
 | ------------ | -------- |
+| 0.76         | v0.8.\*  |
 | 0.74         | v0.7.\*  |
 | 0.72         | v0.6.\*  |
 | 0.71         | v0.5.\*  |
@@ -36,14 +37,13 @@ See the below table to find out which version of the template to use.
 | 0.68         | v0.1.0  |
 
 ## Template Set up
-- react v18.2.0
-- react-native v0.74.1
+- react v18.3.1
+- react-native v0.76.2
 - typescript v5.0.4
 - node 18+ engine
 - yarn 3.6.4 package manager
 - [new JSX transform (no need for React import)](https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html)
-- Hermes enabled for iOS and Android
-  - [[0.73, 0.74] Experimental New Debugger](https://github.com/react-native-community/discussions-and-proposals/discussions/733)
+- Hermes and new architecture enabled by default
 - dev tooling - make sure to read about the `rules in config files` of the following plugins/tools as you won't be able to `commit` if there's any error/warning in staged files
   - eslint
   - tslint
@@ -71,4 +71,3 @@ See the below table to find out which version of the template to use.
 
 ### Notes
 - [Adopting the New Architecture](https://reactnative.dev/docs/new-architecture-intro)
-- [to enable new architecture](https://reactnative.dev/blog/2022/03/15/an-update-on-the-new-architecture-rollout#the-new-architecture-template)
