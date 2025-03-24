@@ -83,48 +83,6 @@ bundle update fastlane
 </details>
 
 ---
-<details>
-<summary>Recommended Folder Structure</summary>
 
-## Recommended Folder Structure
-
-```
-🗂 src
-├── 📁 assets  
-│   ├── 📁 images 
-│   └── 📁 fonts
-│
-├── 📁 components  
-│   ├── 📁 common 
-│   │   └── 📄 Button.tsx 
-│   │
-│   └── 📁 screens
-│       ├── 📁 Tab1
-│       │    ├── 📁 ScreenA 
-│       │    │   ├── 📁 components
-│       │    │   └── 📄 ScreenA.tsx
-│       │    │ 
-│       │    └── 📁 ScreenB 
-│       │
-│       └── 📁 Tab2
-├── 📁 constants 
-├── 📁 redux
-│    ├── 📁 apis (createApis)
-│    ├── 📁 slices (createSlices)
-│    └── 📄 store.ts 
-├── 📁 routes
-│    ├── 📄 BottomTabStack.tsx 
-│    ├── 📄 RootStack.tsx 
-│    ├── 📄 FirstStack.tsx 
-│    ├── 📄 SecondStack.tsx 
-│    └── 📄 PreAuthStack.tsx 
-├── 📁 types
-│    ├── 📁 navigation
-│    └── 📄 preauth.ts 
-│
-└── 📁 utils
-    └── 📁 hooks
-```
-</details>
-
-## [RN Package Directory](https://github.com/ramirezjag00/react-native-resources#react-native-package-directory)
+## [RN Directory](https://reactnative.directory/)
+## [My Github Stars](https://github.com/ramirezjag00?tab=stars)
