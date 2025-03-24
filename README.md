@@ -4,13 +4,14 @@
   ```bash
     nvm install 22.14.0
     nvm alias default 22.14.0
-    npm i -g @react-native-community/cli yarn
+    npm uninstall -g react-native-cli @react-native-community/cli
+    npm i -g yarn
   ```
 
 ## Template Usage:
 
 ```sh
-npx react-native init <projectName> --template https://github.com/ramirezjag00/react-native-ts-template.git --pm yarn --package-name <com.projectName>
+npx @react-native-community/cli@latest init <projectName> --template https://github.com/ramirezjag00/react-native-ts-template.git --pm yarn --package-name <com.projectName>
 ```
 > [init.md](https://github.com/react-native-community/cli/blob/main/docs/init.md)
 > 
@@ -21,7 +22,7 @@ npx react-native init <projectName> --template https://github.com/ramirezjag00/r
 ### e.g. `react-native@0.76.x` add `#v0.8.0`
 
 ```sh
-npx react-native init appnamehere --template https://github.com/ramirezjag00/react-native-ts-template.git#v0.8.0
+npx @react-native-community/cli@latest init  <projectName> --template https://github.com/ramirezjag00/react-native-ts-template.git#v0.8.0
 ```
 
 See the below table to find out which version of the template to use.
