@@ -41,7 +41,7 @@ module.exports = {
       },
     },
   ],
-  plugins: ['import'],
+  plugins: ['import', 'eslint-plugin-react-compiler'],
   rules: {
     '@typescript-eslint/no-floating-promises': 'off',
     '@typescript-eslint/no-use-before-define': 'off',
@@ -134,5 +134,6 @@ module.exports = {
     'import/prefer-default-export': 'off',
     'import/no-anonymous-default-export': 'error',
     'import/group-exports': 'error',
+    'react-compiler/react-compiler': 'error',
   },
 };
