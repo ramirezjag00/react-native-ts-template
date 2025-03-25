@@ -41,12 +41,13 @@ See the below table to find out which version of the template to use.
 | 0.68         | v0.1.0  |
 
 ## Template Set up
-- react v19
 - react-native v0.78.1
-- typescript v5.0.4
-- node 18+ engine
-- [new JSX transform (no need for React import)](https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html)
-- Hermes and new architecture enabled by default
+  - react v19
+  - Hermes and new architecture enabled by default
+  - react-compiler enabled
+  - typescript v5.0.4
+  - node 18+ engine
+  - [new JSX transform (no need for React import)](https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html)
 - Metro Config
   - [experimentalImportSupport and inlineRequires](https://github.com/facebook/react-native/pull/49449#issuecomment-2660984922) enabled
 - iOS

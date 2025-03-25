@@ -1,3 +1,7 @@
+const ReactCompilerConfig = {
+  target: '19',
+};
+
 module.exports = {
   presets: [
     [
@@ -44,6 +48,7 @@ module.exports = {
         runtime: 'automatic',
       },
     ],
+    ['babel-plugin-react-compiler', ReactCompilerConfig],
   ],
   env: {
     production: {
