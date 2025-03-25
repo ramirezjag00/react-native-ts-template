@@ -9,13 +9,12 @@
   ```
 
 ## Template Usage:
-
-```sh
-npx @react-native-community/cli@latest init <projectName> --template https://github.com/ramirezjag00/react-native-ts-template.git --pm yarn --package-name <com.projectName>
-```
 > [init.md](https://github.com/react-native-community/cli/blob/main/docs/init.md)
 > 
 > [commands.md](https://github.com/react-native-community/cli/blob/main/docs/commands.md) 
+```sh
+npx @react-native-community/cli@latest init <projectName> --template https://github.com/ramirezjag00/react-native-ts-template.git --pm yarn --package-name <com.projectName>
+```
 
 ## Usage with older versions of React Native
 
@@ -49,11 +48,13 @@ See the below table to find out which version of the template to use.
 - [new JSX transform (no need for React import)](https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html)
 - Hermes and new architecture enabled by default
 - Metro Config
-  - experimentalImportSupport and inlineRequires enabled
+  - [experimentalImportSupport and inlineRequires](https://github.com/facebook/react-native/pull/49449#issuecomment-2660984922) enabled
+- iOS
+  - [automaticPodsInstallation](https://github.com/react-native-community/cli/blob/main/docs/projects.md#projectiosautomaticpodsinstallation) enabled
 - Android
-  - minifyEnabled and shrinkResources enabled
+  - [minifyEnabled and shrinkResources](https://docs.expo.dev/versions/latest/sdk/build-properties/#pluginconfigtypeandroid) enabled
     - proguard-rules.pro (WIP)
-  - bundle compression disabled
+  - [bundle compression](https://github.com/facebook/react-native/pull/49449#issuecomment-2660984922) disabled
 - dev tooling - make sure to read about the `rules in config files` of the following plugins/tools as you won't be able to `commit` if there's any error/warning in staged files
   - eslint
   - tslint
