@@ -41,7 +41,7 @@ module.exports = {
       },
     },
   ],
-  plugins: ['import', 'eslint-plugin-react-compiler'],
+  plugins: ['import', 'eslint-plugin-react-compiler', 'no-barrel-files'],
   rules: {
     '@typescript-eslint/no-floating-promises': 'off',
     '@typescript-eslint/no-use-before-define': 'off',
@@ -135,5 +135,6 @@ module.exports = {
     'import/no-anonymous-default-export': 'error',
     'import/group-exports': 'error',
     'react-compiler/react-compiler': 'error',
+    'no-barrel-files/no-barrel-files': 'error',
   },
 };
