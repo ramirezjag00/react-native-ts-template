@@ -4,7 +4,7 @@
 
 ## To run
 ```sh
-cd [projectName]
+cd [ProjectName]
 npm run prepare  # do this once git init is done. this will automatically be called on succeeding `yarn`
 # edit alias in babel.config.js according to folder structure/names
 # edit paths in tsconfig.json according to folder structure/names
