@@ -58,7 +58,6 @@ See the below table to find out which version of the template to use.
   - [bundle compression](https://github.com/facebook/react-native/pull/49449#issuecomment-2660984922) disabled
 - dev tooling - make sure to read about the `rules in config files` of the following plugins/tools as you won't be able to `commit` if there's any error/warning in staged files
   - eslint
-  - tslint
   - prettier
   - path alias (check babel.config.js/alias or tsconfig.json/paths)
   - husky
