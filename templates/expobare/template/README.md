@@ -1,4 +1,4 @@
-> Generated using [ramirezjag00/react-native-ts-template](https://github.com/ramirezjag00/react-native-ts-template)
+> Generated using [ramirezjag00/regenkit](https://github.com/ramirezjag00/regenkit)
 
 # ProjectName
 
@@ -11,12 +11,7 @@ npm run prepare  # do this once git init is done. this will automatically be cal
 yarn
 
 ### POD INSTALL
-# for mac m1 users
-# sudo arch -x86_64 gem install ffi
-# cd ios && rm -rf Pods Podfile.lock && arch -x86_64 pod install && cd ..
-
-# or for non-m1/m2 mac users
-# cd ios && rm -rf Pods Podfile.lock && pod install && cd ..
+# cd ios && rm -rf Pods Podfile.lock && pod install --repo-update && cd ..
 
 yarn [ios/android]
 ```
