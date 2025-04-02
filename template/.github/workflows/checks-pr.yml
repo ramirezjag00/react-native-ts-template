@@ -16,7 +16,7 @@ jobs:
       - uses: ./.github/actions/setup-node
 
       - name: Check code formatting
-        run: yarn prettier
+        run: yarn prettier.check
 
       - name: Check lint
         run: yarn lint
