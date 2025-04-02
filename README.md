@@ -72,12 +72,6 @@ See the below table to find out which version of the template to use.
       - prettier checker
       - tsc checker
       - test checker
-  - fastlane
-    - bump versions (ios/android)
-    - build android `debug` apk
-    - notify and upload android apk to slack / telegram
-    - github actions integration (optional)
-    - interactive options (WIP)
 
 ### [React Native Blogs](https://reactnative.dev/blog/)
 

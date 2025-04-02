@@ -15,9 +15,6 @@
     "types": "tsc",
     "format": "prettier --loglevel warn --write \"src/**/*.{js,jsx,ts,tsx,md}\" \"App.tsx\" && eslint . --fix && tsc",
     "prepare": "husky",
-    "bump-patch": "npm version patch --no-git-tag-version && fastlane bump_version",
-    "bump-minor": "npm version minor --no-git-tag-version && fastlane bump_version",
-    "bump-major": "npm version major --no-git-tag-version && fastlane bump_version",
     "metro.kill": "lsof -ti :8081 | xargs kill -9"
   },
   "lint-staged": {
