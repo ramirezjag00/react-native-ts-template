@@ -7,7 +7,7 @@ const App: React.FC = () => {
   return (
     <SafeAreaView style={styles.container}>
       <Text style={styles.title}>
-        {`React Native Template Typescript - RN ${packageJSON.dependencies['react-native']}`}
+        {`Expo Bare Template: Expo SDK ${packageJSON.dependencies.expo} x React Native ${packageJSON.dependencies['react-native']}`}
       </Text>
     </SafeAreaView>
   );

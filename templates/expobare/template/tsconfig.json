@@ -1,0 +1,83 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./src",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "jsx": "react-native",
+    "lib": [
+      "es2019",
+      "es2020.bigint",
+      "es2020.date",
+      "es2020.number",
+      "es2020.promise",
+      "es2020.string",
+      "es2020.symbol.wellknown",
+      "es2021.promise",
+      "es2021.string",
+      "es2021.weakref",
+      "es2022.array",
+      "es2022.object",
+      "es2022.string"
+    ],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "esnext",
+    "types": [
+      "react-native",
+      "jest"
+    ],
+    "paths": {
+      "@api": [
+        "api/*"
+      ],
+      "@assets/*": [
+        "assets/*"
+      ],
+      "@common/*": [
+        "common/*"
+      ],
+      "@components/*": [
+        "common/components/*"
+      ],
+      "@constants/*": [
+        "common/constants/*"
+      ],
+      "@features/*": [
+        "features/*"
+      ],
+      "@hooks/*": [
+        "common/hooks/*"
+      ],
+      "@navigation/*": [
+        "navigation/*"
+      ],
+      "@state/*": [
+        "state/*"
+      ],
+      "@themes": [
+        "common/constants/themes"
+      ],
+      "@types/*": [
+        "common/types/*"
+      ],
+      "@utils/*": [
+        "utils/*"
+      ]
+    }
+  },
+  "exclude": [
+    "babel.config.js",
+    "jest.config.js",
+    "metro.config.js",
+    "node_modules",
+    ".eslintrc.js"
+  ],
+  "extends": "expo/tsconfig.base"
+}

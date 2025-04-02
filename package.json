@@ -1,8 +1,8 @@
 {
-  "name": "react-native-ts-template",
-  "version": "0.9.7",
-  "description": "React Native Typescript Template",
-  "repository": "https://github.com/ramirezjag00/react-native-ts-template.git",
+  "name": "regenkit",
+  "version": "0.9.8",
+  "description": "REGenKit – React Native Expo Generation Kit",
+  "repository": "https://github.com/ramirezjag00/regenkit.git",
   "author": "Andrey Ramirez <ramirez.jag00@gmail.com>",
   "license": "MIT"
 }

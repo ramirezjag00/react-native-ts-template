@@ -1,4 +1,4 @@
-# React Native TS Template
+# REGenKit
 
 ## Requirements
   ```bash
@@ -9,19 +9,21 @@
   ```
 
 ## Template Usage:
-> [init.md](https://github.com/react-native-community/cli/blob/main/docs/init.md)
-> 
-> [commands.md](https://github.com/react-native-community/cli/blob/main/docs/commands.md) 
+
 ```sh
-npx @react-native-community/cli@latest init <projectName> --template https://github.com/ramirezjag00/react-native-ts-template.git --pm yarn --package-name <com.projectName>
+RN_TEMPLATE=<templateName> npx @react-native-community/cli@latest init <ProjectName> --template https://github.com/ramirezjag00/regenkit.git --pm yarn --package-name <com.projectName>
 ```
+#### Available Templates
+- `rnbare` - React Native Bare Workflow template
+- `expobare` - Expo Bare Workflow template
 
-## Usage with older versions of React Native
-
-### e.g. `react-native@0.76.x` add `#v0.8.0`
+<details>
+  <summary>Usage with <= v0.9.7 of <b><i>rnbare</i></b> template</summary>
+  
+  ### e.g. `react-native@0.78.1` add `#v0.9.7`
 
 ```sh
-npx @react-native-community/cli@latest init  <projectName> --template https://github.com/ramirezjag00/react-native-ts-template.git#v0.8.0
+npx @react-native-community/cli@latest init <ProjectName> --template https://github.com/ramirezjag00/regenkit.git#v0.9.7
 ```
 
 See the below table to find out which version of the template to use.
@@ -30,7 +32,7 @@ See the below table to find out which version of the template to use.
 
 | React Native | Template |
 | ------------ | -------- |
-| 0.78         | v0.9.\*  |
+| 0.78         | <= v0.9.7  |
 | 0.76         | v0.8.\*  |
 | 0.74         | v0.7.\*  |
 | 0.72         | v0.6.\*  |
@@ -39,13 +41,17 @@ See the below table to find out which version of the template to use.
 | 0.70         | v0.3.\*  |
 | 0.69         | v0.2.\*  |
 | 0.68         | v0.1.0  |
+</details>
 
 ## Template Set up
-- react-native v0.78.1
-  - react v19
+| Template  	| Version 	| React Native 	| React 	| TypeScript 	| Expo SDK  	|
+|-----------	|---------	|--------------	|-------	|------------	|-----------	|
+| RN Bare   	| >= 0.9.8 	| 0.78.2       	| 19    	| 5.0.4      	| -         	|
+| Expo Bare 	| >= 0.9.8 	| 0.79.0-rc.0  	| 19    	| 5.3.3      	| 53 canary 	|
+
+- RN
   - Hermes and new architecture enabled by default
   - react-compiler enabled
-  - typescript v5.0.4
   - node 18+ engine
   - [new JSX transform (no need for React import)](https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html)
 - Metro Config
@@ -72,7 +78,6 @@ See the below table to find out which version of the template to use.
       - tsc checker
       - test checker
 
-### [React Native Blogs](https://reactnative.dev/blog/)
-
-### Notes
-- [Adopting the New Architecture](https://reactnative.dev/docs/new-architecture-intro)
+### [React Native Blog](https://reactnative.dev/blog/)
+### [Expo Blog](https://expo.dev/blog)
+### [Expo Changelog](https://expo.dev/changelog)

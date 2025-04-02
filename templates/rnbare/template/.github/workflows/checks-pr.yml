@@ -1,0 +1,43 @@
+name: CI (PR)
+
+on:
+  pull_request:
+    branches:
+      - '*'
+
+jobs:
+  pre-check:
+    runs-on: ubuntu-latest
+    outputs:
+      app: ${{ steps.changes.outputs.app }}
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: ./.github/actions/setup-node
+
+      - name: Check code formatting
+        run: yarn prettier.check
+
+      - name: Check lint
+        run: yarn lint
+
+      - name: Check types
+        run: yarn types
+
+      # enables conditional execution of workflow steps and jobs, based on the files modified by pull request, on a feature branch, or by the recently pushed commits.
+      # GITHUB_TOKEN is automatically generated for the workflow
+      # make sure the filter path is correct
+      # make sure that settings/actions in the repo have read/write access
+      - uses: dorny/paths-filter@v2.11.1
+        id: changes
+        with:
+          filters: |
+            app:
+              - '*'
+
+  test-app:
+    needs: pre-check
+    if: always()
+    with:
+      run-build: ${{ needs.pre-check.outputs.app == 'true' }}
+    uses: ./.github/workflows/checks-app.yml

@@ -1,11 +1,19 @@
+const path = require("path");
+const { validTemplates } = require("./script");
+
+const getTemplateDir = () => {
+  const templateName = process.env.RN_TEMPLATE || validTemplates[0];  // Default to rnbare if not specified
+
+  if (!validTemplates.includes(templateName)) {
+    console.error(`Error: Invalid template specified. Only ${validTemplates.join(' or ')} are allowed.`);
+    process.exit(1);
+  }
+
+  return path.join("templates", templateName, "template");
+};
+
 module.exports = {
-  // Placeholder used to rename and replace in files
-  // package.json, index.json, android/, ios/
   placeholderName: "ProjectName",
-
-  // Directory with template
-  templateDir: "./template",
-
-  // Path to script, which will be executed after init
-  postInitScript: "./script.js"
+  templateDir: getTemplateDir(),
+  postInitScript: "./script.js",
 };
