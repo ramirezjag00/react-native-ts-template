@@ -11,7 +11,7 @@
 ## Template Usage:
 
 ```sh
-RN_TEMPLATE=<templateName> npx @react-native-community/cli@latest init <projectname> --template https://github.com/ramirezjag00/regenkit.git --pm yarn
+RN_TEMPLATE=<templateName> npx @react-native-community/cli@latest init <projectname> --title "<Project Name>" --template https://github.com/ramirezjag00/regenkit.git --pm yarn
 ```
 #### Available Templates
 - `rnbare` - React Native Bare Workflow template
@@ -23,7 +23,7 @@ RN_TEMPLATE=<templateName> npx @react-native-community/cli@latest init <projectn
   ### e.g. `react-native@0.78.1` add `#v0.9.7`
 
 ```sh
-npx @react-native-community/cli@latest init <projectname> --template https://github.com/ramirezjag00/regenkit.git#v0.9.7
+npx @react-native-community/cli@latest init <projectname> --title "<Project Name>" --template https://github.com/ramirezjag00/regenkit.git#v0.9.7
 ```
 
 See the below table to find out which version of the template to use.
